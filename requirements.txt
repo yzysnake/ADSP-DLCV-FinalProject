@@ -1,0 +1,12 @@
+pandas
+numpy
+pydicom
+matplotlib
+Pillow
+scikit-image
+seaborn
+torch
+torchvision
+torchmetrics
+gradio
+opencv-python
