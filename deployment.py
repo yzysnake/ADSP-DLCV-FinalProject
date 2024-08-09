@@ -1,6 +1,9 @@
 from FractureDetector import YoloDetector
 from BodyPartClassifer import EfficientNetClassifier
 from Interface import GradioApp
+import warnings
+
+warnings.filterwarnings("ignore", category=UserWarning, module='torchvision.models._utils')
 
 
 if __name__ == "__main__":
