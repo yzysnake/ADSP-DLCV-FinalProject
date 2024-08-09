@@ -19,7 +19,7 @@ class GradioApp:
             outputs=[
                 gr.Textbox(label="Body Part", lines=2, placeholder="Predicted body part class will appear here"),
                 gr.Image(label="Fracture Detection"),
-                gr.Textbox(label="Fracture Detection Message", lines=2,
+                gr.Textbox(label="Number of Fracture Detection", lines=2,
                            placeholder="Fracture detection result will appear here")
             ],
             title="X-ray Body Part Classifier & Fracture Detection",
